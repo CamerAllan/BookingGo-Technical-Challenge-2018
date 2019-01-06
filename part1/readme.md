@@ -2,7 +2,7 @@
 
 ## Description
 
-Here I used `Minimist` to help process command line arguments. This program aggregates data from all three suppliers, and supports filtering the number of passengers through an optional argument.
+Here I used `minimist` to help process command line arguments. This program aggregates data from all three suppliers and also supports filtering the number of passengers through an optional argument.
 
 ## Installation
 

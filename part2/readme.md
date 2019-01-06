@@ -54,6 +54,6 @@ The API returns data in the following format:
 
 `suppliersAttempted` logs the number of suppliers that were attempted to get information from.
 
-`suppliersCompared` logs the number of suppliers that responded with travel information and were therefore included in the comparison
+`suppliersCompared` logs the number of suppliers that responded with travel information and were therefore included in the comparison.
 
 The console logs failed requests with an appropriate message (timeout, server error, client error etc)
