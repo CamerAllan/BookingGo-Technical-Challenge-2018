@@ -15,7 +15,7 @@ My approach for this challenge was to complete both parts using a common codebas
 
 ## Testing
 
-I wrote some `mocha` unit tests for some of the common code between part1 and part2. These are fairly inextensive, and serve more of a proof of concept (I have some testing ability).
+I wrote some `mocha` unit tests for some of the common code between part1 and part2. These are fairly inextensive, and serve more of a proof of concept (I have some testing ability). These tests can be run with `npm test` from `./common`.
 
 Given more time I would have liked to more thoroughly test parts 1 and 2 rather than just the common code, perhaps also using `sinon.js` stubs to test the API.
 
