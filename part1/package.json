@@ -1,0 +1,7 @@
+{
+  "name": "travel-cli",
+  "main": "travel-cli.js",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "travel-api",
+  "main": "travel-api.js",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0"
+  }
+}
