@@ -7,8 +7,16 @@ Parts 1 and 2 rely on `common`. Please run the following commands before attempt
 - `cd common`
 - `npm install`
 
-My approach for this challenge was to complete both parts using a common codebase, rather than calling part 1 from part 2. I chose to do this using `node.js`, due to the ease of creating a RESTful API using `express`. My second choice would have been to use Python with flask (I feel this would have made part 1 slightly more straightforward as using node as a CLI felt a bit strange to me).
+Within `part1` and `part2` can be found readme's describing their operation and functionality.
 
-Within `part1` and `part2` can be found readme's describing their respective functionality.
+## Approach
 
-Given more time I would have liked to more thoroughly test parts 1 and 2 rather than just the common code. I would also probably use `Sinon.js` stubs to test the API.
+My approach for this challenge was to complete both parts using a common codebase in order to maximise code reuse. I chose to do this using `node`, due to the ease of creating a RESTful API using `express`. My second choice would have been to use Python & `flask` (I feel this would have made part 1 slightly more straightforward, as using node as a CLI felt a bit strange to me).
+
+## Testing
+
+I wrote some `mocha` unit tests for some of the common code between part1 and part2. These are fairly inextensive, and serve more of a proof of concept (I have some testing ability).
+
+Given more time I would have liked to more thoroughly test parts 1 and 2 rather than just the common code, perhaps also using `sinon.js` stubs to test the API.
+
+I hope you enjoy looking through my submission, thank you for your consideration :)

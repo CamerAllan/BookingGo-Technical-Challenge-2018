@@ -2,7 +2,7 @@
 
 ## Description
 
-Here I used `Minimist` to help process command line arguments.
+Here I used `Minimist` to help process command line arguments. This program aggregates data from all three suppliers, and supports filtering the number of passengers through an optional argument.
 
 ## Installation
 
@@ -13,11 +13,11 @@ Here I used `Minimist` to help process command line arguments.
 
 `travel-cli` takes the following arguments:
 
-- -p \<latitude\>,\<longitude\>
-- -d \<latitude\>,\<longitude\>
+- -p \<latitude\>,\<longitude\> // pickup location
+- -d \<latitude\>,\<longitude\> // dropoff location
 - [--passengers \<number of passengers\>]
 
-If passengers is not specified, the value of 1 is assumed.
+If the number of passengers is not specified, the value of 1 is assumed as this returns all results (assuming nobody offers 0 passenger transport solutions).
 
 Example usage:
 

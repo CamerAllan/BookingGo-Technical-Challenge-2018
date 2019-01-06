@@ -34,3 +34,24 @@ The components of the query are as follows:
 - passengers
 
 These can be specified in any order.
+
+The API returns data in the following format:
+
+```
+{
+"suppliersAttempted":3,
+"suppliersCompared":3,
+"prices":{
+    "STANDARD":{"price":242849,"supplier":"DAVE"},
+    "EXECUTIVE":{"price":961483,"supplier":"DAVE"},
+    "LUXURY":{"price":58314,"supplier":"ERIC"},
+    "PEOPLE_CARRIER":{"price":220183,"supplier":"ERIC"
+    "LUXURY_PEOPLE_CARRIER":{"price":98096,"supplier":"DAVE"}
+    "MINIBUS":{"price":83233,"supplier":"JEFF"}
+    }
+}
+```
+
+`suppliersAttempted` logs the number of suppliers that were attempted to get information from.
+
+`suppliersCompared` logs the number of suppliers that responded with travel information and were therefore included in the comparison
