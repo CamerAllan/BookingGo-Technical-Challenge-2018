@@ -11,7 +11,7 @@ Within `part1` and `part2` can be found readme's describing their operation and 
 
 ## Approach
 
-My approach for this challenge was to complete both parts using a common codebase in order to maximise code reuse. I chose to do this using `node`, due to the ease of creating a RESTful API using `express`. My second choice would have been to use Python & `flask` (I feel this would have made part 1 slightly more straightforward, as using node as a CLI felt a bit strange to me).
+My approach for this challenge was to complete both parts using a common codebase in order to maximise code reuse. I chose to do this using `node`, due to the ease of creating a RESTful API using `express`.
 
 ## Testing
 
